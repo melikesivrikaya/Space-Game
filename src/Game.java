@@ -12,8 +12,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Game extends JPanel implements KeyListener, ActionListener {
-    Timer timer = new Timer((int) 1,this);
-    private int time;
+    Timer timer = new Timer((int) 0.9,this);
+    private double time;
     private int fire = 0;
     private BufferedImage img;
     private ArrayList<Fire> fires = new ArrayList<Fire>();
@@ -44,7 +44,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        time += 5;
+        time += 0.9;
         g.setColor(Color.red);
         g.fillOval(ballX,0,20,20);
         g.drawImage(img,shipX,420,img.getWidth() / 3,img.getHeight() / 3,this);
@@ -59,7 +59,8 @@ public class Game extends JPanel implements KeyListener, ActionListener {
         }
         if (control()){
             timer.stop();
-            JOptionPane.showMessageDialog(null,"Win.. ! \nTime : " + time / 10000 + " sn\nFire : " +  fire,"!",JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null,"Win.. ! \nTime : " +(int) time / 1000 + " sn\nFire : " +  fire,"!",JOptionPane.INFORMATION_MESSAGE);
+            System.exit(0);
         }
     }
 
