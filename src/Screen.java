@@ -18,7 +18,6 @@ public class Screen extends JFrame {
         game.setFocusable(true);
         game.setFocusTraversalKeysEnabled(false);
 
-
         screen.add(game);
         screen.setVisible(true);
     }

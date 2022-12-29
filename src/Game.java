@@ -101,7 +101,6 @@ public class Game extends JPanel implements KeyListener, ActionListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-
     }
 
     @Override
