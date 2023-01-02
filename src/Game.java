@@ -64,15 +64,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
         }
     }
 
-    @Override
-    public void repaint(Rectangle r) {
-        super.repaint(r);
-    }
 
-    @Override
-    public void keyTyped(KeyEvent e) {
-
-    }
 
     @Override
     public void keyPressed(KeyEvent e) {
@@ -99,9 +91,7 @@ public class Game extends JPanel implements KeyListener, ActionListener {
         }
     }
 
-    @Override
-    public void keyReleased(KeyEvent e) {
-    }
+
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -117,5 +107,13 @@ public class Game extends JPanel implements KeyListener, ActionListener {
             ballDirX = - ballDirX;
         }
         repaint();
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+    }
+    @Override
+    public void keyTyped(KeyEvent e) {
+
     }
 }
