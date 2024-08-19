@@ -1,1 +1,1 @@
-Video : https://www.linkedin.com/feed/update/urn:li:activity:7014187365044772864/
+Video : [https://www.linkedin.com/feed/update/urn:li:activity:7014187365044772864/](https://www.linkedin.com/posts/melikesivrikaya_daha-%C3%B6nceden-geli%C5%9Ftirmi%C5%9F-oldu%C4%9Fum-projeyi-activity-7127218096859201536-Mam_?utm_source=share&utm_medium=member_desktop)
